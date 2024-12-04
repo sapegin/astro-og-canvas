@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-        astro: [^3, ^4]
+        astro: [^3, ^4, ^5]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
